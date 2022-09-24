@@ -89,7 +89,6 @@ const Profile = () => {
                 />
               </div>
             </div>
-
             <div className={styles['form-footer']}>
               <button
                 type="submit"
