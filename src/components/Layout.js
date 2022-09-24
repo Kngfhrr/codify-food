@@ -10,7 +10,7 @@ import {
   UserIcon,
 } from '@heroicons/react/outline';
 import Avatar from './Avatar';
-import {useSignOut, useUserData, useUserId} from "@nhost/react";
+import {useSignOut, useUserId} from "@nhost/react";
 import {gql, useQuery} from "@apollo/client";
 
 const GET_USER_QUERY = gql`

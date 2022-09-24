@@ -28,7 +28,7 @@ const Profile = () => {
   const isLastNameDirty = lastName !== user?.metadata?.lastName;
   const isProfileFormDirty = isFirstNameDirty || isLastNameDirty;
 
-  const [mutateUser, { loading: updatingProfile }] = useMutation(UPDATE_USER_MUTATION)
+  const [mutateUser] = useMutation(UPDATE_USER_MUTATION)
 
   const updateUserProfile = async (e) => {
     e.preventDefault()
